@@ -11,3 +11,4 @@
 - ord() : (A -> 65) 
   chr() : (65 -> A)
 - find() 는 처음 나오는 위치를 반환함
+- groups = ["ABC","DEF","GHI","JKL","MNO","PQRS","TUV","WXYZ"] ,,, for i,g in enumerate(groups): 하면 i 에는 인덱스 g에는 배열 원소가 들어감
