@@ -10,5 +10,8 @@
 - print(len(sys.stdin.readline())) 을 하면 당연히 문자열 마지막 \0 도 포함 되므로 -1 을 해줘야 함
 - ord() : (A -> 65) 
   chr() : (65 -> A)
-- find() 는 처음 나오는 위치를 반환함
+- find() 는 처음 나오는 위치를 반환함, 이후에 나오는 걸 찾으려면 first = text.find('a') second = text.find('a', first + 1) 로 해야됨
 - groups = ["ABC","DEF","GHI","JKL","MNO","PQRS","TUV","WXYZ"] ,,, for i,g in enumerate(groups): 하면 i 에는 인덱스 g에는 배열 원소가 들어감
+- for i in list_int: # i가 인덱스가 아님 list_int에 들어간 원소를 가리킴
+- max_index = list_int.index(maximum)
+  #list.index(값) 함수는 리스트를 0번부터 훑으면서, 괄호 안의 '값'과 똑같은 값이 발견되면 그 즉시 그 자리가 몇 번째 칸(인덱스)인지 알려주고 끝납니다.
