@@ -24,7 +24,6 @@
 - numbers = [1, 2, 3]
 1. map(str, numbers) -> 숫자들을 전부 문자로 변환 ('1', '2', '3')
 2. 그 다음 join으로 연결
-result = " + ".join(map(str, numbers))
-
-print(result)
-결과: 1 + 2 + 3
+  result = " + ".join(map(str, numbers))
+  print(result)
+  결과: 1 + 2 + 3
