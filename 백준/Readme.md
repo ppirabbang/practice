@@ -22,8 +22,8 @@
 - [[0] * cols for i in range(rows)] 2차원 배열 선언 방법
 - 중복된 걸 1개로 처리해주는 set() 함수를 사용해서 겹치는 부분의 넓이 등에 활용하면 좋을 듯, paper = set() paper.add(x좌표,y좌표) 하면 알아서 겹치는건 1개로 처리해준다 이후 길이를 반환하면 넓이와 동일하다
 - numbers = [1, 2, 3]
-1. map(str, numbers) -> 숫자들을 전부 문자로 변환 ('1', '2', '3')
-2. 그 다음 join으로 연결
+  1. map(str, numbers) -> 숫자들을 전부 문자로 변환 ('1', '2', '3')
+  2. 그 다음 join으로 연결
   result = " + ".join(map(str, numbers))
   print(result)
   결과: 1 + 2 + 3
