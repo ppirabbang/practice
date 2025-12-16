@@ -27,3 +27,4 @@
   result = " + ".join(map(str, numbers))
   print(result)
   결과: 1 + 2 + 3
+- 정수 좌표 구할 때 xor 연산을 사용하면 입력이 같다면 0, 다르면 입력값이 저장되므로 활용할 수 있을 듯
