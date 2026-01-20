@@ -44,3 +44,4 @@
 - append() 가 뒤에 붙이니까 LIFO 형식이 되는거임. pop() 도 default는 맨 뒤 원소부터 처리함. 다만 pop(0) 과 같이 인덱스 설정 가능
 - 원을 만든다 -> queue에서 특정 인덱스 앞(K-1)의 원소들을 popleft() 하고 다시 append() 해주면 원이 됨
 - 파이썬에서 EOF 처리 방법은 while(line(변수값) := sys.stdin.readline()) 하면 line에 값이 들어오면 while 실행 되고 EOF라면 입력값이 없으므로 벗어나게 된다.
+- for 문이 몇 개 필요한 지, 상태를 저장하고 다음으로 넘겨야 될 때 재귀를 생각하자
