@@ -4,8 +4,8 @@ N = int(sys.stdin.readline())
 number = list(map(int, sys.stdin.readline().split()))
 ops = list(map(int, sys.stdin.readline().split()))
 
-max_value = -1e9
-min_value = 1e9
+max_value = -1000000000
+min_value = 1000000000
 
 def dfs(depth, sum, plus, minus, mul, div):
   global max_value, min_value
