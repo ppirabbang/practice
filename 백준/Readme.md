@@ -46,3 +46,5 @@
 - 파이썬에서 EOF 처리 방법은 while(line(변수값) := sys.stdin.readline()) 하면 line에 값이 들어오면 while 실행 되고 EOF라면 입력값이 없으므로 벗어나게 된다.
 - 깃허브 레포지터리 만들어서 git clone 하거나 git init 한 뒤에 아무것도 새로 만들지 말고 깃허브 레포지터리 만들고 git remote add 해야됨
 - 재귀는 귀납으로 생각, 재귀 함수가 어떤 일을 하는 지 알빠 아님.
+- 띄어쓰기 없이 들어오는 입력은 sys.stdin.readline().strip()
+- 재귀 함수가 들어갔으면 무조건 종료하고 나오도록 return을 선언 하거나 특정 조건을 걸어줘야함
