@@ -22,7 +22,7 @@ def dfs(x,y):
 
 result = 0
 for i in range(n):
-    for j in range(n):
+    for j in range(m):
         if dfs(i,j):
             result +=1
 
